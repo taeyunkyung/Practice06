@@ -35,7 +35,6 @@ public class Customer extends Person {
 	}
 
 	// 메소드
-
 	public void showInfo() {
 		System.out.println("#이름:" + getName() + ", #핸드폰:" + getHp() + ", #고객번호:" + cNo + ", #포인트점수:" + point);
 	}
