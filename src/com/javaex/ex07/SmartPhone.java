@@ -6,19 +6,19 @@ public class SmartPhone extends MusicPhone {
 
 		if ("앱".equals(str)) {
 			openApp();
-		} else if ("음악".equals(str)) {
-			playMusic(); // protected
-		} else {
+		} 
+		// else if ("음악".equals(str)) {playMusic();} execute(str) MusicPhone에서 오버리아딩
+		else {
 			super.execute(str);
 		}
 
 	}
 
-	private void openApp() { // or public
+	private void openApp() { 
 		System.out.println("앱실행");
 	}
 	
-	protected void playMusic() { // or public
+	protected void playMusic() {
 		System.out.println("다운로드해서 음악재생");
 	}
 

@@ -20,6 +20,6 @@ public class Base {
 	}
 
 	public void night() {
-		System.out.println("night");
+		System.out.println("밤에는 숙면"); // 수정 X
 	}
 }

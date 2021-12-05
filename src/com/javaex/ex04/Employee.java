@@ -27,7 +27,7 @@ public class Employee extends User {
 	// 메소드
 	public void showInfo() {
 		System.out.println("#아이디:" + getId() + ", #패스워드:" + getPassword() + ", #이름:" + getName() + ", #월급:" + salary);
-		System.out.println(getName() + "의 월급은 " + salary + "원 입니다.");
+		// System.out.println(getName() + "의 월급은 " + salary + "원 입니다.");
 	}
 
 }

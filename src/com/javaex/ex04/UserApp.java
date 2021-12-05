@@ -16,6 +16,9 @@ public class UserApp {
 		for (int i = 0; i < uArray.length; i++) {
 			uArray[i].showInfo();
 		}
+
+		int salary = ((Employee) uArray[2]).getSalary();
+		System.out.println("운영자의 월급은 " + salary + "원 입니다.");
 	}
 
 }
